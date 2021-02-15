@@ -6,8 +6,11 @@
 }
 .header-section{
     background-image: url("../images/Mask\ Group.png");
-    
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 .header-text{
     width: 38%;
 }
+
