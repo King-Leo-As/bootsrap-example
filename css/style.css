@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+.header-section{
+    background-image: url("../images/Mask\ Group.png");
+    
+}
+.header-text{
+    width: 38%;
+}
