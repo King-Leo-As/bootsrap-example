@@ -152,6 +152,14 @@
         width: 90%;
         margin: 0 auto;
     }
+    .header-content > h1{
+        width: 100%;
+    
+    }
+    .header-text{
+        width: 100%;
+        margin: 0 auto;
+    }
 }
 
 
