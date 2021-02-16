@@ -11,6 +11,153 @@
     position: relative;
 }
 .header-text{
-    width: 38%;
+    width: 50%;
 }
+.features{
+    position: relative;
+    z-index: 99;
+    /* clip-path: polygon(0 32%, 100% 51%, 100% 100%, 0% 100%); */
+    
+    overflow: hidden;
+}
+
+.hover{
+    position: absolute;
+    bottom: -10%;
+    right: -5%;
+    height: 0%;
+    width: 115%;
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: 0.4s;
+    /* opacity: 0; */
+    transform: rotate(5deg);
+
+}
+
+.features:hover .hover{
+    height: 60%;
+}
+.hover1{
+    position: absolute;
+    bottom: -10%;
+    right: -5%;
+    height: 0%;
+    width: 115%;
+    background-color: rgba(255, 217, 0, 0.7);
+    transition: 0.4s;
+    /* opacity: 0; */
+    transform: rotate(5deg);
+
+}
+.features:hover .hover1{
+    height: 60%;
+}
+.hover2{
+    position: absolute;
+    bottom: -10%;
+    right: -5%;
+    height: 0%;
+    width: 115%;
+    background-color: rgba(255, 255, 255, 0.7);
+    transition: 0.4s;
+    /* opacity: 0; */
+    transform: rotate(5deg);
+
+}
+.features:hover .hover2{
+    height: 60%;
+}
+.hover3{
+    position: absolute;
+    bottom: -10%;
+    right: -5%;
+    height: 0%;
+    width: 115%;
+    background-color:rgba(128, 128, 128, 0.699);
+    transition: 0.4s;
+    /* opacity: 0; */
+    transform: rotate(5deg);
+
+}
+.features:hover .hover3{
+    height: 60%;
+}
+.hover4{
+    position: absolute;
+    bottom: -10%;
+    right: -5%;
+    height: 0%;
+    width: 115%;
+    background-color: rgba(6, 156, 243, 0.7);
+    transition: 0.4s;
+    /* opacity: 0; */
+    transform: rotate(5deg);
+
+}
+.features:hover .hover4{
+    height: 60%;
+}
+.hover5{
+    position: absolute;
+    bottom: -10%;
+    right: -5%;
+    height: 0%;
+    width: 115%;
+    background-color: rgba(255, 145, 0, 0.7);
+    transition: 0.4s;
+    /* opacity: 0; */
+    transform: rotate(5deg);
+
+}
+.features:hover .hover5{
+    height: 60%;
+}
+@media (max-width:1140px){
+    .container{
+        width: 980px;
+    }
+    .list{
+        display: flex;
+        flex-direction: row;
+    }
+    .features{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .features > img{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+@media (max-width:600px){
+    .container{
+        width: 90%;
+    }
+    .list{
+        display: flex;
+        flex-direction: row;
+    }
+    li{
+        width: 50%;
+    }
+    .features{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .features > img{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
 
