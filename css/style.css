@@ -117,15 +117,15 @@
         width: 980px;
     }
     .list{
-        display: flex;
+        display: flex!important;
         flex-direction: row;
     }
     .features{
-        width: 100%;
+        width: 100%!important;
         margin: 0 auto;
     }
     .features > img{
-        width: 100%;
+        width: 100%!important;
         margin: 0 auto;
     }
 }
@@ -134,18 +134,22 @@
         width: 90%;
     }
     .list{
-        display: flex;
-        flex-direction: row;
+        display: flex!important;
+        flex-direction: row!important;
     }
     li{
-        width: 50%;
+        width: 100%!important;
     }
     .features{
-        width: 100%;
-        margin: 0 auto;
+        width: 100%!important;
+        margin: 0 auto!important;
     }
     .features > img{
-        width: 100%;
+        width: 100%!important;
+        margin: 0 auto!important;
+    }
+    footer{
+        width: 90%;
         margin: 0 auto;
     }
 }
